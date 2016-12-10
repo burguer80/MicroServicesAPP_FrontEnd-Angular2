@@ -18,7 +18,7 @@ AppComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'app',
-        template: "\n\n  <h1>Navigation</h1>\n\n  <router-outlet> </router-outlet>\n  <h1>Footer</h1>\n  "
+        templateUrl: 'app.component.html'
     }),
     __metadata("design:paramtypes", [])
 ], AppComponent);
