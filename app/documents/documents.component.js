@@ -11,6 +11,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
+        this.documents = [
+            {
+                title: "My first Doc",
+                description: "First description",
+                file_url: "file.doc",
+                updated_at: "11/11/16",
+                image_url: "imageurl.jpg"
+            },
+            {
+                title: "My second Doc",
+                description: "second description",
+                file_url: "secondfile.doc",
+                updated_at: "11/12/16",
+                image_url: "secondimageurl.jpg"
+            },
+            {
+                title: "My third Doc",
+                description: "third description",
+                file_url: "thirdfile.doc",
+                updated_at: "11/12/16",
+                image_url: "thirdimageurl.jpg"
+            }
+        ];
     }
     return DocumentsComponent;
 }());
