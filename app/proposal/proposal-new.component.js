@@ -20,7 +20,8 @@ ProposalNewComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'proposal-new',
-        templateUrl: 'proposal-new.component.html'
+        templateUrl: 'proposal-new.component.html',
+        styleUrls: ['proposal-new.component.css']
     }),
     __metadata("design:paramtypes", [])
 ], ProposalNewComponent);
