@@ -18,21 +18,21 @@ var DocumentsComponent = (function () {
                 description: "First description",
                 file_url: "file.doc",
                 updated_at: "11/11/16",
-                image_url: "imageurl.jpg"
+                image_url: "http://lorempixel.com/output/business-q-g-640-480-5.jpg"
             },
             {
                 title: "My second Doc",
                 description: "second description",
                 file_url: "secondfile.doc",
                 updated_at: "11/12/16",
-                image_url: "secondimageurl.jpg"
+                image_url: "http://lorempixel.com/output/business-q-g-640-480-5.jpg"
             },
             {
                 title: "My third Doc",
                 description: "third description",
                 file_url: "thirdfile.doc",
                 updated_at: "11/12/16",
-                image_url: "thirdimageurl.jpg"
+                image_url: "http://lorempixel.com/output/business-q-g-640-480-5.jpg"
             }
         ];
     }
