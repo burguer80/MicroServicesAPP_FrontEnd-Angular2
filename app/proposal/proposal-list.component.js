@@ -23,7 +23,8 @@ ProposalListComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'proposal-list',
-        templateUrl: 'proposal-list.component.html'
+        templateUrl: 'proposal-list.component.html',
+        styleUrls: ['proposal-list.component.css']
     }),
     __metadata("design:paramtypes", [])
 ], ProposalListComponent);
